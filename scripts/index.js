@@ -1,3 +1,5 @@
+const audioElement = new Audio('media/educon.mp3')
+audioElement.play()
 let background = [128, 128, 128]
 let delta = 100
 setInterval(() => {
