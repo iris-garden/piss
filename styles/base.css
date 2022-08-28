@@ -1,0 +1,24 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #303030;
+  box-shadow: 10px 10px #000000;
+  padding: 0.75em;
+  width: 26vw;
+  height: 8vh;
+  font-size: 4em;
+  color: #ff0000;
+  font-family: Comic Neue;
+  font-weight: bold;
+}
