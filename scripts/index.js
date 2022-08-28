@@ -9,6 +9,7 @@ const main = () => {
     document.getElementById('bkgd').style.backgroundColor = `rgb(${r},${g},${b})`
   }, 100)
   const mainEle = document.getElementById("main")
+  mainEle.innerHTML = "piss"
   mainEle.className = "card"
   mainEle.removeEventListener('click', main)
 }
